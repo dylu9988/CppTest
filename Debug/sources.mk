@@ -29,6 +29,7 @@ Graph \
 SpecialFuncs \
 Syntax \
 ZeroMq \
+algorithms \
 bianry_tree \
 boost \
 comm \

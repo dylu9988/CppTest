@@ -18,7 +18,8 @@
 #include <set>
 #include <map>
 #include <queue>
-
+#include <string>
+#include <string.h>
 #include <unistd.h>
 
 

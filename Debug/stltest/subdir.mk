@@ -6,17 +6,20 @@
 CPP_SRCS += \
 ../stltest/stl_deque.cpp \
 ../stltest/stl_map.cpp \
-../stltest/stl_string.cpp 
+../stltest/stl_string.cpp \
+../stltest/time_date.cpp 
 
 OBJS += \
 ./stltest/stl_deque.o \
 ./stltest/stl_map.o \
-./stltest/stl_string.o 
+./stltest/stl_string.o \
+./stltest/time_date.o 
 
 CPP_DEPS += \
 ./stltest/stl_deque.d \
 ./stltest/stl_map.d \
-./stltest/stl_string.d 
+./stltest/stl_string.d \
+./stltest/time_date.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

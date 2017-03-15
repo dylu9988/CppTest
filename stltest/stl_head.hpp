@@ -14,16 +14,19 @@ void stl_map_test();
 
 void stl_string_tests();
 
+void time_date_tests();
+
 
 void stl_test_entry()
 {
 
-
 //    stldeque_tests();
 
-    stl_map_test();
+//    stl_map_test();
 
 //    stl_string_tests();
+
+    time_date_tests();
 }
 
 

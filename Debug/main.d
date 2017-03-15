@@ -5,7 +5,8 @@ main.o: ../main.cpp ../heads.h ../nets/net_header.h \
  ../leetcode/leetcode_head.hpp /home/ruanbo/Codes/CppTest/comm/Log.hpp \
  ../Cpp11/cpp11_head.hpp ../SomeTests/some_tests_head.hpp \
  ../process/process_head.hpp ../stltest/stl_head.hpp \
- ../SpecialFuncs/special_head.hpp ../Graph/graph_head.hpp
+ ../SpecialFuncs/special_head.hpp ../Graph/graph_head.hpp \
+ ../algorithms/algorithm_head.hpp
 
 ../heads.h:
 
@@ -38,3 +39,5 @@ main.o: ../main.cpp ../heads.h ../nets/net_header.h \
 ../SpecialFuncs/special_head.hpp:
 
 ../Graph/graph_head.hpp:
+
+../algorithms/algorithm_head.hpp:

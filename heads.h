@@ -26,6 +26,7 @@
 
 #include "Graph/graph_head.hpp"
 
+#include "algorithms/algorithm_head.hpp"
 
 void fix_msg_test();
 
@@ -64,6 +65,8 @@ void all_test_entrys()
 //    graph_test_entrys();
 
 //    net_entrys();
+
+//    algorithm_entrys();
 }
 
 

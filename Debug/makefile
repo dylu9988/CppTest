@@ -17,6 +17,7 @@ RM := rm -rf
 -include comm/subdir.mk
 -include boost/subdir.mk
 -include bianry_tree/subdir.mk
+-include algorithms/subdir.mk
 -include ZeroMq/subdir.mk
 -include Syntax/subdir.mk
 -include SpecialFuncs/subdir.mk
