@@ -1,5 +1,6 @@
-main.o: ../main.cpp ../heads.h ../nets/net_header.h \
- ../interview/interview_head.h ../threads/thread_head.h \
+main.o: ../main.cpp ../heads.h \
+ /home/ruanbo/Codes/CppTest/algoTests/interview_head.h \
+ ../nets/net_header.h ../threads/thread_head.h \
  ../bianry_tree/binary_tree_head.h ../Syntax/syntax_head.hpp \
  ../ZeroMq/ZeroMqHead.hpp ../boost/boost_head.hpp \
  ../leetcode/leetcode_head.hpp /home/ruanbo/Codes/CppTest/comm/Log.hpp \
@@ -10,9 +11,9 @@ main.o: ../main.cpp ../heads.h ../nets/net_header.h \
 
 ../heads.h:
 
-../nets/net_header.h:
+/home/ruanbo/Codes/CppTest/algoTests/interview_head.h:
 
-../interview/interview_head.h:
+../nets/net_header.h:
 
 ../threads/thread_head.h:
 

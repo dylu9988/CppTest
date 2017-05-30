@@ -29,11 +29,11 @@ Graph \
 SpecialFuncs \
 Syntax \
 ZeroMq \
+algoTests \
 algorithms \
 bianry_tree \
 boost \
 comm \
-interview \
 leetcode \
 . \
 nets \

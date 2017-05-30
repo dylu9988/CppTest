@@ -13,11 +13,11 @@ RM := rm -rf
 -include process/subdir.mk
 -include nets/subdir.mk
 -include leetcode/subdir.mk
--include interview/subdir.mk
 -include comm/subdir.mk
 -include boost/subdir.mk
 -include bianry_tree/subdir.mk
 -include algorithms/subdir.mk
+-include algoTests/subdir.mk
 -include ZeroMq/subdir.mk
 -include Syntax/subdir.mk
 -include SpecialFuncs/subdir.mk
@@ -69,6 +69,5 @@ clean:
 	-@echo ' '
 
 .PHONY: all clean dependents
-.SECONDARY:
 
 -include ../makefile.targets

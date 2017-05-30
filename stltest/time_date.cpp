@@ -51,17 +51,17 @@ void format_time()
     string date_str(buf, 0, strlen(buf));
     Log("now date:%s", date_str.data());
 
-
-    std::stringstream sst;
-    std::tm tm = *std::localtime(&now);
-    sst << std::put_time(&tm ,"%Y:%m:%d");
-    string fmt_time = sst.str();
-    Log("now put_time date:%s", fmt_time.data());
-
-    sst.clear();
-    sst.str("");
-    sst << std::put_time(&tm, "%H:%M:%S");
-    Log("now put_time time:%s", sst.str().data());
+//
+//    std::stringstream sst;
+//    std::tm tm = *std::localtime(&now);
+//    sst << std::put_time(&tm ,"%Y:%m:%d");
+//    string fmt_time = sst.str();
+//    Log("now put_time date:%s", fmt_time.data());
+//
+//    sst.clear();
+//    sst.str("");
+//    sst << std::put_time(&tm, "%H:%M:%S");
+//    Log("now put_time time:%s", sst.str().data());
 
 }
 

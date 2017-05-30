@@ -1,7 +1,7 @@
 
+#include <algoTests/interview_head.h>
 #include "nets/net_header.h"
 
-#include "interview/interview_head.h"
 #include "threads/thread_head.h"
 
 #include "bianry_tree/binary_tree_head.h"
