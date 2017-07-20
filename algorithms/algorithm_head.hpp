@@ -13,12 +13,37 @@ void horner_tests();
 
 void stack_to_queue();
 
+void trie_tests();
+
+void list_sort_test();
+
+void lcs_test();
+
+void lcs2_test();
+
+void lps_test();
+
+void paren_paris_test();
 
 void algorithm_entrys()
 {
 //    horner_tests();
 
-    stack_to_queue();
+//    stack_to_queue();
+
+//    trie_tests();
+
+//    list_sort_test();
+
+//    lcs_test();
+
+//    lcs2_test();
+
+//    lps_test();
+
+    paren_paris_test();
+
+
 }
 
 

@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../process/ipc_sem.cpp \
 ../process/zombie_process.cpp 
 
 OBJS += \
+./process/ipc_sem.o \
 ./process/zombie_process.o 
 
 CPP_DEPS += \
+./process/ipc_sem.d \
 ./process/zombie_process.d 
 
 

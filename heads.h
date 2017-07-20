@@ -28,6 +28,15 @@
 
 #include "algorithms/algorithm_head.hpp"
 
+#include "System/system_head.hpp"
+
+#include "Asynchronous/async_head.hpp"
+
+#include "Optimise/optimise_head.hpp"
+
+#include "Math/math_head.hpp"
+
+
 void fix_msg_test();
 
 void std_regex_test();
@@ -58,15 +67,23 @@ void all_test_entrys()
 
 //    some_tests_entry();
 
-    stl_test_entry();
+//    stl_test_entry();
 
 //    special_test_entry();
 
 //    graph_test_entrys();
 
-//    net_entrys();
+    net_entrys();
 
 //    algorithm_entrys();
+
+//    system_test_entries();
+
+//    async_test_entry();
+
+//    optimise_entries();
+
+//    math_test_entry();
 }
 
 

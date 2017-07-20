@@ -7,7 +7,9 @@ main.o: ../main.cpp ../heads.h \
  ../Cpp11/cpp11_head.hpp ../SomeTests/some_tests_head.hpp \
  ../process/process_head.hpp ../stltest/stl_head.hpp \
  ../SpecialFuncs/special_head.hpp ../Graph/graph_head.hpp \
- ../algorithms/algorithm_head.hpp
+ ../algorithms/algorithm_head.hpp ../System/system_head.hpp \
+ ../Asynchronous/async_head.hpp ../Optimise/optimise_head.hpp \
+ ../Math/math_head.hpp
 
 ../heads.h:
 
@@ -42,3 +44,11 @@ main.o: ../main.cpp ../heads.h \
 ../Graph/graph_head.hpp:
 
 ../algorithms/algorithm_head.hpp:
+
+../System/system_head.hpp:
+
+../Asynchronous/async_head.hpp:
+
+../Optimise/optimise_head.hpp:
+
+../Math/math_head.hpp:

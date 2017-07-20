@@ -11,6 +11,7 @@
 
 void zombie_process_tests();
 
+void ipc_sem_tests();
 
 /*
  *  进程
@@ -19,8 +20,9 @@ void zombie_process_tests();
 
 void process_entry()
 {
-    zombie_process_tests();
+//    zombie_process_tests();
 
+    ipc_sem_tests();
 }
 
 

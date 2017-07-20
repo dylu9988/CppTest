@@ -21,6 +21,7 @@
 #include <string>
 #include <string.h>
 #include <unistd.h>
+#include <errno.h>
 
 
 using namespace std;
@@ -41,7 +42,29 @@ void show_vec(const vector<T>& V, string msg="")
     cout << endl;
 }
 
+template<class T>
+void show_bin(T v)
+{
+    size_t s = sizeof(T);
 
+    for(size_t i=s; i>0; --i)
+    {
+        for(size_t b=8; b>0; --b)
+        {
+            if(v & (0x01 << ((i-1)*8 + (b-1))) )
+            {
+                LogLine("1");
+            }
+            else
+            {
+                LogLine("0");
+            }
+        }
+        LogLine("B ");
+    }
+
+    Log(" ");
+}
 
 
 

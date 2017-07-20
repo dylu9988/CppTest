@@ -1,0 +1,525 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALGORITHM_HEAD_HPP_	algorithms/algorithm_head.hpp	9;"	d
+ALIGN_SIZE	nets/aio_file.cpp	18;"	d	file:
+AND_WITH_N	leetcode/FindOnlyOneOrTwoDuplicated.cpp	43;"	d	file:
+BIANRY_TREE_BST_COMM_HPP_	bianry_tree/bst_comm.hpp	9;"	d
+BINARY_TREE_HEAD_H_	bianry_tree/binary_tree_head.h	9;"	d
+BOOST_BOOST_HEAD_HPP_	boost/boost_head.hpp	9;"	d
+BSTNode	bianry_tree/bst_comm.hpp	/^    BSTNode()$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode	bianry_tree/bst_comm.hpp	/^class BSTNode$/;"	c
+BSTNode	leetcode/IsBinarySearchTree.cpp	/^    BSTNode()$/;"	f	struct:BSTNode	access:public	signature:()
+BSTNode	leetcode/IsBinarySearchTree.cpp	/^struct BSTNode$/;"	s	file:
+BSTNode::BSTNode	bianry_tree/bst_comm.hpp	/^    BSTNode()$/;"	f	class:BSTNode	access:public	signature:()
+BSTNode::BSTNode	leetcode/IsBinarySearchTree.cpp	/^    BSTNode()$/;"	f	struct:BSTNode	access:public	signature:()
+BSTNode::_data	bianry_tree/bst_comm.hpp	/^    int _data;$/;"	m	class:BSTNode	access:public
+BSTNode::_data	leetcode/IsBinarySearchTree.cpp	/^    int _data;$/;"	m	struct:BSTNode	file:	access:public
+BSTNode::_left	bianry_tree/bst_comm.hpp	/^    BSTNode* _left;$/;"	m	class:BSTNode	access:public
+BSTNode::_left	leetcode/IsBinarySearchTree.cpp	/^    BSTNode *_left;$/;"	m	struct:BSTNode	file:	access:public
+BSTNode::_right	bianry_tree/bst_comm.hpp	/^    BSTNode* _right;$/;"	m	class:BSTNode	access:public
+BSTNode::_right	leetcode/IsBinarySearchTree.cpp	/^    BSTNode *_right;$/;"	m	struct:BSTNode	file:	access:public
+BinaryTreeMaxDepth	leetcode/BinaryTreeDepth.cpp	/^class BinaryTreeMaxDepth$/;"	c	file:
+BinaryTreeMaxDepth::get_depth	leetcode/BinaryTreeDepth.cpp	/^    int get_depth(const BinaryTreeNode* root)$/;"	f	class:BinaryTreeMaxDepth	access:public	signature:(const BinaryTreeNode* root)
+BinaryTreeNode	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode(int data) : _data(data), _left(NULL), _right(NULL)$/;"	f	struct:BinaryTreeNode	access:public	signature:(int data)
+BinaryTreeNode	bianry_tree/BinaryTreeTraverse.cpp	/^struct BinaryTreeNode$/;"	s	file:
+BinaryTreeNode	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode(int data)$/;"	f	struct:BinaryTreeNode	access:public	signature:(int data)
+BinaryTreeNode	leetcode/BinaryTreeDepth.cpp	/^struct BinaryTreeNode$/;"	s	file:
+BinaryTreeNode::BinaryTreeNode	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode(int data) : _data(data), _left(NULL), _right(NULL)$/;"	f	struct:BinaryTreeNode	access:public	signature:(int data)
+BinaryTreeNode::BinaryTreeNode	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode(int data)$/;"	f	struct:BinaryTreeNode	access:public	signature:(int data)
+BinaryTreeNode::_data	bianry_tree/BinaryTreeTraverse.cpp	/^    int _data;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::_data	leetcode/BinaryTreeDepth.cpp	/^    int _data;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::_left	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode* _left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::_left	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode *_left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::_right	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode* _right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::_right	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode *_right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeTraverse	bianry_tree/BinaryTreeTraverse.cpp	/^class BinaryTreeTraverse$/;"	c	file:
+BinaryTreeTraverse::_root	bianry_tree/BinaryTreeTraverse.cpp	/^    BtnPtr _root;$/;"	m	class:BinaryTreeTraverse	file:	access:private
+BinaryTreeTraverse::add_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void add_node(int val)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(int val)
+BinaryTreeTraverse::del_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void del_node(BtnPtr root)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root)
+BinaryTreeTraverse::in_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+BinaryTreeTraverse::in_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+BinaryTreeTraverse::in_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order_non_recursive()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+BinaryTreeTraverse::invert	bianry_tree/BinaryTreeTraverse.cpp	/^    BtnPtr invert(BtnPtr root)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root)
+BinaryTreeTraverse::invert	bianry_tree/BinaryTreeTraverse.cpp	/^    void invert()$/;"	f	class:BinaryTreeTraverse	access:public	signature:()
+BinaryTreeTraverse::pre_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+BinaryTreeTraverse::pre_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+BinaryTreeTraverse::pre_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order_non_recursive()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+BinaryTreeTraverse::pre_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order_non_recursive(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+BinaryTreeTraverse::visit_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void visit_node(BtnPtr p)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr p) const
+BinaryTreeTraverse::~BinaryTreeTraverse	bianry_tree/BinaryTreeTraverse.cpp	/^    virtual ~BinaryTreeTraverse()$/;"	f	class:BinaryTreeTraverse	access:public	signature:()
+BstNodePtr	bianry_tree/bst_comm.hpp	/^typedef BSTNode* BstNodePtr;$/;"	t
+BtnPtr	bianry_tree/BinaryTreeTraverse.cpp	/^typedef BinaryTreeNode* BtnPtr;$/;"	t	file:
+CBstTree	leetcode/IsBinarySearchTree.cpp	/^    CBstTree()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree	leetcode/IsBinarySearchTree.cpp	/^class CBstTree$/;"	c	file:
+CBstTree::CBstTree	leetcode/IsBinarySearchTree.cpp	/^    CBstTree()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::_root	leetcode/IsBinarySearchTree.cpp	/^    BstPtr _root;$/;"	m	class:CBstTree	file:	access:private
+CBstTree::del_node	leetcode/IsBinarySearchTree.cpp	/^    void del_node(BstPtr p)$/;"	f	class:CBstTree	access:public	signature:(BstPtr p)
+CBstTree::in_order	leetcode/IsBinarySearchTree.cpp	/^    void in_order()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::in_order	leetcode/IsBinarySearchTree.cpp	/^    void in_order(const BstPtr& p)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p)
+CBstTree::in_order_2	leetcode/IsBinarySearchTree.cpp	/^    void in_order_2()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::init_by_layer	leetcode/IsBinarySearchTree.cpp	/^    void init_by_layer(const vector<int>& A)$/;"	f	class:CBstTree	access:public	signature:(const vector<int>& A)
+CBstTree::init_by_order	leetcode/IsBinarySearchTree.cpp	/^    void init_by_order(const vector<int>& A)$/;"	f	class:CBstTree	access:public	signature:(const vector<int>& A)
+CBstTree::insert_node	leetcode/IsBinarySearchTree.cpp	/^    void insert_node(int val)$/;"	f	class:CBstTree	access:public	signature:(int val)
+CBstTree::is_bst_1	leetcode/IsBinarySearchTree.cpp	/^    bool is_bst_1()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::is_preorder_valid	leetcode/IsBinarySearchTree.cpp	/^    bool is_preorder_valid(const BstPtr p, int &min, int &max)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr p, int &min, int &max)
+CBstTree::layer_traverse	leetcode/IsBinarySearchTree.cpp	/^    void layer_traverse()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::layer_unrecursive	leetcode/IsBinarySearchTree.cpp	/^    void layer_unrecursive()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::nth_node	leetcode/IsBinarySearchTree.cpp	/^    BstPtr nth_node(int N)$/;"	f	class:CBstTree	access:public	signature:(int N)
+CBstTree::nthnode_test	leetcode/IsBinarySearchTree.cpp	/^    void nthnode_test()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::post_order	leetcode/IsBinarySearchTree.cpp	/^    void post_order()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::post_order	leetcode/IsBinarySearchTree.cpp	/^    void post_order(const BstPtr& p)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p)
+CBstTree::release_node	leetcode/IsBinarySearchTree.cpp	/^    void release_node(BstPtr p)$/;"	f	class:CBstTree	access:public	signature:(BstPtr p)
+CBstTree::unit	leetcode/IsBinarySearchTree.cpp	/^    void unit()$/;"	f	class:CBstTree	access:public	signature:()
+CBstTree::visit_by_layer	leetcode/IsBinarySearchTree.cpp	/^    bool visit_by_layer(const BstPtr& p, int layer)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p, int layer)
+CBstTree::~CBstTree	leetcode/IsBinarySearchTree.cpp	/^    ~CBstTree()$/;"	f	class:CBstTree	access:public	signature:()
+COMM_COMM_HPP_	comm/comm.hpp	9;"	d
+CPP11_HEAD_HPP_	Cpp11/cpp11_head.hpp	9;"	d
+CThreadParam	threads/pthreadt_test.cpp	/^    CThreadParam()$/;"	f	class:CThreadParam	access:public	signature:()
+CThreadParam	threads/pthreadt_test.cpp	/^class CThreadParam$/;"	c	file:
+CThreadParam::CThreadParam	threads/pthreadt_test.cpp	/^    CThreadParam()$/;"	f	class:CThreadParam	access:public	signature:()
+CThreadParam::_pid	threads/pthreadt_test.cpp	/^    pthread_t _pid;$/;"	m	class:CThreadParam	file:	access:public
+CThreadParam::show	threads/pthreadt_test.cpp	/^    void show()$/;"	f	class:CThreadParam	access:public	signature:()
+DequeNode	stltest/stl_deque.cpp	/^    DequeNode(int v)$/;"	f	struct:DequeNode	access:public	signature:(int v)
+DequeNode	stltest/stl_deque.cpp	/^struct DequeNode$/;"	s	file:
+DequeNode::DequeNode	stltest/stl_deque.cpp	/^    DequeNode(int v)$/;"	f	struct:DequeNode	access:public	signature:(int v)
+DequeNode::val	stltest/stl_deque.cpp	/^    int val;$/;"	m	struct:DequeNode	file:	access:public
+Edge	Graph/FistTest.cpp	/^    Edge() : _vertex(0), _weight(0), _next(NULL)$/;"	f	struct:Edge	access:public	signature:()
+Edge	Graph/FistTest.cpp	/^    Edge(int v) : _vertex(v), _weight(0), _next(NULL)$/;"	f	struct:Edge	access:public	signature:(int v)
+Edge	Graph/FistTest.cpp	/^    Edge(int v, int w) : _vertex(v), _weight(w), _next(NULL)$/;"	f	struct:Edge	access:public	signature:(int v, int w)
+Edge	Graph/FistTest.cpp	/^struct Edge$/;"	s	file:
+Edge::Edge	Graph/FistTest.cpp	/^    Edge() : _vertex(0), _weight(0), _next(NULL)$/;"	f	struct:Edge	access:public	signature:()
+Edge::Edge	Graph/FistTest.cpp	/^    Edge(int v) : _vertex(v), _weight(0), _next(NULL)$/;"	f	struct:Edge	access:public	signature:(int v)
+Edge::Edge	Graph/FistTest.cpp	/^    Edge(int v, int w) : _vertex(v), _weight(w), _next(NULL)$/;"	f	struct:Edge	access:public	signature:(int v, int w)
+Edge::_next	Graph/FistTest.cpp	/^    Edge* _next;$/;"	m	struct:Edge	file:	access:public
+Edge::_vertex	Graph/FistTest.cpp	/^    int _vertex;$/;"	m	struct:Edge	file:	access:public
+Edge::_weight	Graph/FistTest.cpp	/^    int _weight;$/;"	m	struct:Edge	file:	access:public
+FIXMSGOP_HPP_	FixMsg/FixMsgOp.hpp	9;"	d
+FixMsgOp	FixMsg/FixMsgOp.cpp	/^FixMsgOp::FixMsgOp()$/;"	f	class:FixMsgOp	signature:()
+FixMsgOp	FixMsg/FixMsgOp.hpp	/^    FixMsgOp();$/;"	p	class:FixMsgOp	access:public	signature:()
+FixMsgOp	FixMsg/FixMsgOp.hpp	/^class FixMsgOp$/;"	c
+FixMsgOp::FixMsgOp	FixMsg/FixMsgOp.cpp	/^FixMsgOp::FixMsgOp()$/;"	f	class:FixMsgOp	signature:()
+FixMsgOp::FixMsgOp	FixMsg/FixMsgOp.hpp	/^    FixMsgOp();$/;"	p	class:FixMsgOp	access:public	signature:()
+FixMsgOp::_msgs	FixMsg/FixMsgOp.hpp	/^    std::map<int, std::string> _msgs;  \/\/key:qty no of the new order, value:new order msg$/;"	m	class:FixMsgOp	access:private
+FixMsgOp::check_valid	FixMsg/FixMsgOp.cpp	/^int FixMsgOp::check_valid(const std::string& msg)const$/;"	f	class:FixMsgOp	signature:(const std::string& msg) const
+FixMsgOp::check_valid	FixMsg/FixMsgOp.hpp	/^    int check_valid(const std::string& msg)const;$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& msg) const
+FixMsgOp::input_msg	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::input_msg(const std::string& input_file)$/;"	f	class:FixMsgOp	signature:(const std::string& input_file)
+FixMsgOp::input_msg	FixMsg/FixMsgOp.hpp	/^    void input_msg(const std::string& input_file);$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& input_file)
+FixMsgOp::ouput_msg	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::ouput_msg(const std::string& output_file)$/;"	f	class:FixMsgOp	signature:(const std::string& output_file)
+FixMsgOp::ouput_msg	FixMsg/FixMsgOp.hpp	/^    void ouput_msg(const std::string& output_file);$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& output_file)
+FixMsgOp::read_msg_ouput	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::read_msg_ouput(const std::string& input_file, const std::string& output_file)$/;"	f	class:FixMsgOp	signature:(const std::string& input_file, const std::string& output_file)
+FixMsgOp::read_msg_ouput	FixMsg/FixMsgOp.hpp	/^    void read_msg_ouput(const std::string& input_file="fix42_input_msg.log", const std::string& output_file="fix42_output_msg.log");$/;"	p	class:FixMsgOp	access:public	signature:(const std::string& input_file=Ó, const std::string& output_file=Ó)
+FixMsgOp::~FixMsgOp	FixMsg/FixMsgOp.cpp	/^FixMsgOp::~FixMsgOp()$/;"	f	class:FixMsgOp	signature:()
+FixMsgOp::~FixMsgOp	FixMsg/FixMsgOp.hpp	/^    virtual ~FixMsgOp();$/;"	p	class:FixMsgOp	access:public	signature:()
+GRAPH_HEAD_HPP_	Graph/graph_head.hpp	9;"	d
+Graph1	Graph/FistTest.cpp	/^class Graph1$/;"	c	file:
+INTERVIEW_HEAD_H_	algoTests/interview_head.h	9;"	d
+KStack	algorithms/StackQueue.cpp	/^    KStack()$/;"	f	class:KStack	access:public	signature:()
+KStack	algorithms/StackQueue.cpp	/^class KStack$/;"	c	file:
+KStack::KStack	algorithms/StackQueue.cpp	/^    KStack()$/;"	f	class:KStack	access:public	signature:()
+KStack::_count	algorithms/StackQueue.cpp	/^    int _count;$/;"	m	class:KStack	file:	access:private
+KStack::_data	algorithms/StackQueue.cpp	/^    int _data[STACK_SIZE];$/;"	m	class:KStack	file:	access:private
+KStack::count	algorithms/StackQueue.cpp	/^    int count()$/;"	f	class:KStack	access:public	signature:()
+KStack::is_empty	algorithms/StackQueue.cpp	/^    bool is_empty()$/;"	f	class:KStack	access:public	signature:()
+KStack::is_full	algorithms/StackQueue.cpp	/^    bool is_full()$/;"	f	class:KStack	access:public	signature:()
+KStack::pop	algorithms/StackQueue.cpp	/^    int pop()$/;"	f	class:KStack	access:public	signature:()
+KStack::push	algorithms/StackQueue.cpp	/^    void push(int val)$/;"	f	class:KStack	access:public	signature:(int val)
+LEETCODE_HEAD_HPP_	leetcode/leetcode_head.hpp	9;"	d
+LOG_H	comm/Log.hpp	3;"	d
+ListNode	algoTests/reverse_list.cpp	/^    ListNode()$/;"	f	struct:ListNode	access:public	signature:()
+ListNode	algoTests/reverse_list.cpp	/^struct ListNode$/;"	s	file:
+ListNode::ListNode	algoTests/reverse_list.cpp	/^    ListNode()$/;"	f	struct:ListNode	access:public	signature:()
+ListNode::_data	algoTests/reverse_list.cpp	/^    int _data;$/;"	m	struct:ListNode	file:	access:public
+ListNode::_next	algoTests/reverse_list.cpp	/^    struct ListNode *_next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:	access:public
+Log	comm/Log.hpp	8;"	d
+LogLine	comm/Log.hpp	10;"	d
+MI	Syntax/vtable.cpp	/^class MI : public VBase1, public VBase2$/;"	c	file:	inherits:VBase1,VBase2
+MI::show1	Syntax/vtable.cpp	/^    virtual void show1()$/;"	f	class:MI	access:public	signature:()
+MI::show2	Syntax/vtable.cpp	/^    virtual void show2()$/;"	f	class:MI	access:public	signature:()
+NEW_ORDER_KEY	FixMsg/FixMsgOp.hpp	17;"	d
+NEW_ORDER_KEY	boost/file_op.cpp	33;"	d	file:
+NUM_EVENTS	nets/aio_file.cpp	17;"	d	file:
+NewOrderItem	boost/file_op.cpp	/^class NewOrderItem$/;"	c	file:
+NewOrderItem::_fix_msg	boost/file_op.cpp	/^    std::string _fix_msg;$/;"	m	class:NewOrderItem	file:	access:private
+NewOrderItem::_qty	boost/file_op.cpp	/^    int _qty;$/;"	m	class:NewOrderItem	file:	access:private
+PROCESS_HEAD_HPP_	process/process_head.hpp	9;"	d
+QTY_KEY	FixMsg/FixMsgOp.hpp	18;"	d
+QTY_KEY	boost/file_op.cpp	34;"	d	file:
+RD_WD_SIZE	nets/aio_file.cpp	19;"	d	file:
+RaiiFile	boost/file_op.cpp	/^    RaiiFile(const std::string& file_name="")$/;"	f	class:RaiiFile	access:public	signature:(const std::string& file_name=Ó)
+RaiiFile	boost/file_op.cpp	/^class RaiiFile$/;"	c	file:
+RaiiFile::RaiiFile	boost/file_op.cpp	/^    RaiiFile(const std::string& file_name="")$/;"	f	class:RaiiFile	access:public	signature:(const std::string& file_name=Ó)
+RaiiFile::_msgs	boost/file_op.cpp	/^    std::map<int, std::string> _msgs;$/;"	m	class:RaiiFile	file:	access:private
+RaiiFile::boost_algo_regex	boost/file_op.cpp	/^    void boost_algo_regex()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::check_valid	boost/file_op.cpp	/^    int check_valid(const std::string& msg)$/;"	f	class:RaiiFile	access:public	signature:(const std::string& msg)
+RaiiFile::output_msg	boost/file_op.cpp	/^    void output_msg()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::read_data	boost/file_op.cpp	/^    void read_data()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::read_data2	boost/file_op.cpp	/^    void read_data2()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::read_fix	boost/file_op.cpp	/^    void read_fix()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::regex_test	boost/file_op.cpp	/^    void regex_test()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::std_regex_test	boost/file_op.cpp	/^    void std_regex_test()$/;"	f	class:RaiiFile	access:public	signature:()
+RaiiFile::~RaiiFile	boost/file_op.cpp	/^    ~RaiiFile()$/;"	f	class:RaiiFile	access:public	signature:()
+RemoveZero	leetcode/RemoveZero.cpp	/^void RemoveZero(vector<int>& A)$/;"	f	signature:(vector<int>& A)
+ReverseBits	leetcode/ReverseInteger.cpp	/^class ReverseBits$/;"	c	file:
+ReverseBits::bit_tests	leetcode/ReverseInteger.cpp	/^    void bit_tests()$/;"	f	class:ReverseBits	access:public	signature:()
+ReverseBits::reverse_bites	leetcode/ReverseInteger.cpp	/^    int reverse_bites(int n)$/;"	f	class:ReverseBits	access:public	signature:(int n)
+ReverseBits::show_bin	leetcode/ReverseInteger.cpp	/^    void show_bin(int n)$/;"	f	class:ReverseBits	file:	access:private	signature:(int n)
+ReverseBits::swap_bit	leetcode/ReverseInteger.cpp	/^    void swap_bit(int& n, int i, int j)$/;"	f	class:ReverseBits	file:	access:private	signature:(int& n, int i, int j)
+ReverseInteger	leetcode/ReverseInteger.cpp	/^class ReverseInteger$/;"	c	file:
+ReverseInteger::is_overflow	leetcode/ReverseInteger.cpp	/^    bool is_overflow(int n)$/;"	f	class:ReverseInteger	file:	access:private	signature:(int n)
+ReverseInteger::reverse	leetcode/ReverseInteger.cpp	/^    int reverse(int n)$/;"	f	class:ReverseInteger	access:public	signature:(int n)
+ReverseInteger::reverse_integer	leetcode/ReverseInteger.cpp	/^    int reverse_integer(int n)$/;"	f	class:ReverseInteger	file:	access:private	signature:(int n)
+SOME_TESTS_HEAD_HPP_	SomeTests/some_tests_head.hpp	9;"	d
+SPECIAL_HEAD_HPP_	SpecialFuncs/special_head.hpp	9;"	d
+STACK_SIZE	algorithms/StackQueue.cpp	15;"	d	file:
+STL_DEQUE_CPP_	stltest/stl_deque.cpp	9;"	d	file:
+STL_HEAD_HPP_	stltest/stl_head.hpp	9;"	d
+STRINGIMPL_HPP_	Syntax/StringImpl.hpp	9;"	d
+SYNTAX_HEAD_HPP_	Syntax/syntax_head.hpp	9;"	d
+Stack2Queue	algorithms/StackQueue.cpp	/^    Stack2Queue()$/;"	f	class:Stack2Queue	access:public	signature:()
+Stack2Queue	algorithms/StackQueue.cpp	/^class Stack2Queue$/;"	c	file:
+Stack2Queue::Stack2Queue	algorithms/StackQueue.cpp	/^    Stack2Queue()$/;"	f	class:Stack2Queue	access:public	signature:()
+Stack2Queue::_S1	algorithms/StackQueue.cpp	/^    KStack _S1;$/;"	m	class:Stack2Queue	file:	access:private
+Stack2Queue::_S2	algorithms/StackQueue.cpp	/^    KStack _S2;$/;"	m	class:Stack2Queue	file:	access:private
+Stack2Queue::pop_front	algorithms/StackQueue.cpp	/^    int pop_front()$/;"	f	class:Stack2Queue	access:public	signature:()
+Stack2Queue::push_back	algorithms/StackQueue.cpp	/^    void push_back(int val)$/;"	f	class:Stack2Queue	access:public	signature:(int val)
+StringImpl	Syntax/StringImpl.hpp	/^    StringImpl()$/;"	f	class:StringImpl	access:public	signature:()
+StringImpl	Syntax/StringImpl.hpp	/^    StringImpl(const StringImpl& rhs)$/;"	f	class:StringImpl	access:public	signature:(const StringImpl& rhs)
+StringImpl	Syntax/StringImpl.hpp	/^class StringImpl$/;"	c
+StringImpl::StringImpl	Syntax/StringImpl.hpp	/^    StringImpl()$/;"	f	class:StringImpl	access:public	signature:()
+StringImpl::StringImpl	Syntax/StringImpl.hpp	/^    StringImpl(const StringImpl& rhs)$/;"	f	class:StringImpl	access:public	signature:(const StringImpl& rhs)
+StringImpl::m_data	Syntax/StringImpl.hpp	/^    char *m_data;$/;"	m	class:StringImpl	access:private
+StringImpl::operator =	Syntax/StringImpl.hpp	/^    StringImpl& operator=(const StringImpl& rhs)$/;"	f	class:StringImpl	access:public	signature:(const StringImpl& rhs)
+StringImpl::~StringImpl	Syntax/StringImpl.hpp	/^    ~StringImpl()$/;"	f	class:StringImpl	access:public	signature:()
+TEST_FILE	nets/aio_file.cpp	15;"	d	file:
+TEST_FILE_SIZE	nets/aio_file.cpp	16;"	d	file:
+THREAD_HEAD_H_	threads/thread_head.h	9;"	d
+ThreadData	threads/thread_cond.cpp	/^    ThreadData()$/;"	f	class:ThreadData	access:public	signature:()
+ThreadData	threads/thread_cond.cpp	/^class ThreadData$/;"	c	file:
+ThreadData::ThreadData	threads/thread_cond.cpp	/^    ThreadData()$/;"	f	class:ThreadData	access:public	signature:()
+ThreadData::_c_cnt	threads/thread_cond.cpp	/^    int _c_cnt;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_cnt	threads/thread_cond.cpp	/^    int _cnt;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_cond	threads/thread_cond.cpp	/^    pthread_cond_t _cond;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_data	threads/thread_cond.cpp	/^    std::vector<int> _data;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_mutex	threads/thread_cond.cpp	/^    pthread_mutex_t _mutex;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_p_cnt	threads/thread_cond.cpp	/^    int _p_cnt;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_seconds	threads/thread_cond.cpp	/^    int _seconds;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::_signal	threads/thread_cond.cpp	/^    bool _signal;$/;"	m	class:ThreadData	file:	access:public
+ThreadData::add_data	threads/thread_cond.cpp	/^    void add_data()$/;"	f	class:ThreadData	access:public	signature:()
+ThreadData::get_data	threads/thread_cond.cpp	/^    std::vector<int> get_data()$/;"	f	class:ThreadData	access:public	signature:()
+ThreadData::~ThreadData	threads/thread_cond.cpp	/^    ~ThreadData()$/;"	f	class:ThreadData	access:public	signature:()
+VBase1	Syntax/vtable.cpp	/^class VBase1$/;"	c	file:
+VBase1::show1	Syntax/vtable.cpp	/^    virtual void show1()$/;"	f	class:VBase1	access:public	signature:()
+VBase2	Syntax/vtable.cpp	/^class VBase2$/;"	c	file:
+VBase2::show2	Syntax/vtable.cpp	/^    virtual void show2()$/;"	f	class:VBase2	access:public	signature:()
+ZEROMQHEAD_HPP_	ZeroMq/ZeroMqHead.hpp	9;"	d
+_S1	algorithms/StackQueue.cpp	/^    KStack _S1;$/;"	m	class:Stack2Queue	file:	access:private
+_S2	algorithms/StackQueue.cpp	/^    KStack _S2;$/;"	m	class:Stack2Queue	file:	access:private
+_c_cnt	threads/thread_cond.cpp	/^    int _c_cnt;$/;"	m	class:ThreadData	file:	access:public
+_cnt	threads/thread_cond.cpp	/^    int _cnt;$/;"	m	class:ThreadData	file:	access:public
+_cond	threads/thread_cond.cpp	/^    pthread_cond_t _cond;$/;"	m	class:ThreadData	file:	access:public
+_count	algorithms/StackQueue.cpp	/^    int _count;$/;"	m	class:KStack	file:	access:private
+_data	algoTests/reverse_list.cpp	/^    int _data;$/;"	m	struct:ListNode	file:	access:public
+_data	algorithms/StackQueue.cpp	/^    int _data[STACK_SIZE];$/;"	m	class:KStack	file:	access:private
+_data	algorithms/horner.cpp	/^    vector<int> _data;$/;"	m	class:horner	file:	access:private
+_data	bianry_tree/BinaryTreeTraverse.cpp	/^    int _data;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_data	bianry_tree/bst_comm.hpp	/^    int _data;$/;"	m	class:BSTNode	access:public
+_data	leetcode/BinaryTreeDepth.cpp	/^    int _data;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_data	leetcode/IsBinarySearchTree.cpp	/^    int _data;$/;"	m	struct:BSTNode	file:	access:public
+_data	threads/thread_cond.cpp	/^    std::vector<int> _data;$/;"	m	class:ThreadData	file:	access:public
+_fix_msg	boost/file_op.cpp	/^    std::string _fix_msg;$/;"	m	class:NewOrderItem	file:	access:private
+_key	algorithms/horner.cpp	/^    int _key;$/;"	m	class:horner	file:	access:private
+_left	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode* _left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_left	bianry_tree/bst_comm.hpp	/^    BSTNode* _left;$/;"	m	class:BSTNode	access:public
+_left	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode *_left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_left	leetcode/IsBinarySearchTree.cpp	/^    BSTNode *_left;$/;"	m	struct:BSTNode	file:	access:public
+_msgs	FixMsg/FixMsgOp.hpp	/^    std::map<int, std::string> _msgs;  \/\/key:qty no of the new order, value:new order msg$/;"	m	class:FixMsgOp	access:private
+_msgs	boost/file_op.cpp	/^    std::map<int, std::string> _msgs;$/;"	m	class:RaiiFile	file:	access:private
+_mutex	threads/thread_cond.cpp	/^    pthread_mutex_t _mutex;$/;"	m	class:ThreadData	file:	access:public
+_next	Graph/FistTest.cpp	/^    Edge* _next;$/;"	m	struct:Edge	file:	access:public
+_next	algoTests/reverse_list.cpp	/^    struct ListNode *_next;$/;"	m	struct:ListNode	typeref:struct:ListNode::ListNode	file:	access:public
+_p_cnt	threads/thread_cond.cpp	/^    int _p_cnt;$/;"	m	class:ThreadData	file:	access:public
+_pid	threads/pthreadt_test.cpp	/^    pthread_t _pid;$/;"	m	class:CThreadParam	file:	access:public
+_qty	boost/file_op.cpp	/^    int _qty;$/;"	m	class:NewOrderItem	file:	access:private
+_right	bianry_tree/BinaryTreeTraverse.cpp	/^    BinaryTreeNode* _right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_right	bianry_tree/bst_comm.hpp	/^    BSTNode* _right;$/;"	m	class:BSTNode	access:public
+_right	leetcode/BinaryTreeDepth.cpp	/^    BinaryTreeNode *_right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+_right	leetcode/IsBinarySearchTree.cpp	/^    BSTNode *_right;$/;"	m	struct:BSTNode	file:	access:public
+_root	bianry_tree/BinaryTreeTraverse.cpp	/^    BtnPtr _root;$/;"	m	class:BinaryTreeTraverse	file:	access:private
+_root	leetcode/IsBinarySearchTree.cpp	/^    BstPtr _root;$/;"	m	class:CBstTree	file:	access:private
+_seconds	threads/thread_cond.cpp	/^    int _seconds;$/;"	m	class:ThreadData	file:	access:public
+_signal	threads/thread_cond.cpp	/^    bool _signal;$/;"	m	class:ThreadData	file:	access:public
+_vertex	Graph/FistTest.cpp	/^    int _vertex;$/;"	m	struct:Edge	file:	access:public
+_weight	Graph/FistTest.cpp	/^    int _weight;$/;"	m	struct:Edge	file:	access:public
+a_not_b	algoTests/in_a_not_in_b.cpp	/^void a_not_b()$/;"	f	signature:()
+add_data	threads/thread_cond.cpp	/^    void add_data()$/;"	f	class:ThreadData	access:public	signature:()
+add_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void add_node(int val)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(int val)
+aio_server	nets/aio_server.cpp	/^void aio_server()$/;"	f	signature:()
+aio_server	nets/net_header.h	/^void aio_server();$/;"	p
+algorithm_entrys	algorithms/algorithm_head.hpp	/^void algorithm_entrys()$/;"	f	signature:()
+all_test_entrys	heads.h	/^void all_test_entrys()$/;"	f
+array_pointer	Syntax/array.cpp	/^void array_pointer()$/;"	f	signature:()
+array_test	Syntax/array.cpp	/^void array_test()$/;"	f	signature:()
+array_test	Syntax/syntax_head.hpp	/^void array_test();$/;"	p	signature:()
+binary_search	algoTests/more_half.cpp	/^static int binary_search(int* A, int L, int R, int K)$/;"	f	file:	signature:(int* A, int L, int R, int K)
+binary_search	leetcode/BinarySearch.cpp	/^bool binary_search(const vector<int>& A, int L, int R, int key)$/;"	f	signature:(const vector<int>& A, int L, int R, int key)
+binary_search_test	leetcode/BinarySearch.cpp	/^void binary_search_test()$/;"	f	signature:()
+binary_search_test	leetcode/leetcode_head.hpp	/^void binary_search_test();$/;"	p	signature:()
+binary_search_test1	algoTests/interview_head.h	/^void binary_search_test1();$/;"	p
+binary_search_test1	algoTests/more_half.cpp	/^void binary_search_test1()$/;"	f	signature:()
+binary_sort_tree_test	bianry_tree/binary_sort_tree.cpp	/^void binary_sort_tree_test()$/;"	f	signature:()
+binary_tree_entry	bianry_tree/binary_tree_head.h	/^void binary_tree_entry()$/;"	f
+binary_tree_max_depth	leetcode/BinaryTreeDepth.cpp	/^void binary_tree_max_depth()$/;"	f	signature:()
+binary_tree_max_depth	leetcode/leetcode_head.hpp	/^void binary_tree_max_depth();$/;"	p	signature:()
+bit_tests	leetcode/ReverseInteger.cpp	/^    void bit_tests()$/;"	f	class:ReverseBits	access:public	signature:()
+boost_algo_regex	boost/file_op.cpp	/^    void boost_algo_regex()$/;"	f	class:RaiiFile	access:public	signature:()
+boost_file_op	boost/boost_head.hpp	/^void boost_file_op();$/;"	p	signature:()
+boost_file_op	boost/file_op.cpp	/^void boost_file_op()$/;"	f	signature:()
+boost_test_entrys	boost/boost_head.hpp	/^void boost_test_entrys()$/;"	f	signature:()
+bt_layer_traverse	bianry_tree/LayerTraverse.cpp	/^void bt_layer_traverse()$/;"	f	signature:()
+change_thread_stacksize	threads/thread_stacksize.cpp	/^void change_thread_stacksize()$/;"	f	signature:()
+check_valid	FixMsg/FixMsgOp.cpp	/^int FixMsgOp::check_valid(const std::string& msg)const$/;"	f	class:FixMsgOp	signature:(const std::string& msg) const
+check_valid	FixMsg/FixMsgOp.hpp	/^    int check_valid(const std::string& msg)const;$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& msg) const
+check_valid	boost/file_op.cpp	/^    int check_valid(const std::string& msg)$/;"	f	class:RaiiFile	access:public	signature:(const std::string& msg)
+confirm	algorithms/horner.cpp	/^    void confirm()$/;"	f	class:horner	access:public	signature:()
+count	algorithms/StackQueue.cpp	/^    int count()$/;"	f	class:KStack	access:public	signature:()
+count_sort	leetcode/CountSort.cpp	/^void count_sort(vector<int>& A,int N)$/;"	f	signature:(vector<int>& A,int N)
+count_sort_test	leetcode/CountSort.cpp	/^void count_sort_test()$/;"	f	signature:()
+count_sort_test	leetcode/leetcode_head.hpp	/^void count_sort_test();$/;"	p	signature:()
+cpp11_entrys	Cpp11/cpp11_head.hpp	/^void cpp11_entrys()$/;"	f	signature:()
+cpp11_loop	Cpp11/cpp11_head.hpp	/^void cpp11_loop();$/;"	p	signature:()
+cpp11_loop	Cpp11/loops.cpp	/^void cpp11_loop()$/;"	f	signature:()
+cur_val	leetcode/IsBinarySearchTree.cpp	/^int cur_val = 0;$/;"	v
+del_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void del_node(BtnPtr root)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root)
+del_node	leetcode/IsBinarySearchTree.cpp	/^    void del_node(BstPtr p)$/;"	f	class:CBstTree	access:public	signature:(BstPtr p)
+find_2_duplicates	leetcode/FindOnlyOneOrTwoDuplicated.cpp	/^void find_2_duplicates(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+find_2_lost_test	leetcode/Find2LostNumbers.cpp	/^void find_2_lost_test()$/;"	f	signature:()
+find_2_lost_test	leetcode/leetcode_head.hpp	/^void find_2_lost_test();$/;"	p	signature:()
+find_duplicated_one	leetcode/FindOnlyOneOrTwoDuplicated.cpp	/^void find_duplicated_one(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+find_duplicated_two	leetcode/FindOnlyOneOrTwoDuplicated.cpp	/^void find_duplicated_two(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+find_m_dumplicated_1	leetcode/NMNumsFindMDuplicated.cpp	/^void find_m_dumplicated_1(vector<int>& A, int N)$/;"	f	signature:(vector<int>& A, int N)
+find_m_dumplicated_2	leetcode/NMNumsFindMDuplicated.cpp	/^void find_m_dumplicated_2(vector<int>& A)$/;"	f	signature:(vector<int>& A)
+find_m_dumplicated_3	leetcode/NMNumsFindMDuplicated.cpp	/^void find_m_dumplicated_3(vector<int>& A, int N)$/;"	f	signature:(vector<int>& A, int N)
+find_m_duplicated_test	leetcode/NMNumsFindMDuplicated.cpp	/^void find_m_duplicated_test()$/;"	f	signature:()
+find_m_duplicated_test	leetcode/leetcode_head.hpp	/^void find_m_duplicated_test();$/;"	p	signature:()
+find_more_than_half	leetcode/FindMoreThenHalf.cpp	/^void find_more_than_half()$/;"	f	signature:()
+find_more_than_half	leetcode/leetcode_head.hpp	/^void find_more_than_half();$/;"	p	signature:()
+find_one_two_duplicated_tests	leetcode/FindOnlyOneOrTwoDuplicated.cpp	/^void find_one_two_duplicated_tests()$/;"	f	signature:()
+find_one_two_duplicated_tests	leetcode/leetcode_head.hpp	/^void find_one_two_duplicated_tests();$/;"	p	signature:()
+find_only_one_in_duplicated_three	leetcode/FindOnlyOneOrTwoDuplicated.cpp	/^void find_only_one_in_duplicated_three(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+find_two_lost_numbers	leetcode/Find2LostNumbers.cpp	/^void find_two_lost_numbers(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+fix_msg_test	FixMsg/FixTest.cpp	/^void fix_msg_test()$/;"	f	signature:()
+fix_msg_test	heads.h	/^void fix_msg_test();$/;"	p
+format_time	stltest/time_date.cpp	/^void format_time()$/;"	f	signature:()
+gen_bst	bianry_tree/binary_sort_tree.cpp	/^BstNodePtr gen_bst()$/;"	f	signature:()
+gen_list	algoTests/reverse_list.cpp	/^static ListNode* gen_list()$/;"	f	file:	signature:()
+get_data	threads/thread_cond.cpp	/^    std::vector<int> get_data()$/;"	f	class:ThreadData	access:public	signature:()
+get_delta_time	stltest/time_date.cpp	/^void get_delta_time()$/;"	f	signature:()
+get_depth	leetcode/BinaryTreeDepth.cpp	/^    int get_depth(const BinaryTreeNode* root)$/;"	f	class:BinaryTreeMaxDepth	access:public	signature:(const BinaryTreeNode* root)
+graph_test_entrys	Graph/graph_head.hpp	/^void graph_test_entrys()$/;"	f	signature:()
+heap_one	leetcode/HeapSort.cpp	/^void heap_one(vector<int>& A, int idx, int max)$/;"	f	signature:(vector<int>& A, int idx, int max)
+heap_sort	leetcode/HeapSort.cpp	/^void heap_sort(vector<int>& A)$/;"	f	signature:(vector<int>& A)
+heap_sort_test	leetcode/HeapSort.cpp	/^void heap_sort_test()$/;"	f	signature:()
+heap_sort_test	leetcode/leetcode_head.hpp	/^void heap_sort_test();$/;"	p	signature:()
+hn_cal	algorithms/horner.cpp	/^    void hn_cal()$/;"	f	class:horner	access:public	signature:()
+horner	algorithms/horner.cpp	/^    horner()$/;"	f	class:horner	access:public	signature:()
+horner	algorithms/horner.cpp	/^class horner$/;"	c	file:
+horner::_data	algorithms/horner.cpp	/^    vector<int> _data;$/;"	m	class:horner	file:	access:private
+horner::_key	algorithms/horner.cpp	/^    int _key;$/;"	m	class:horner	file:	access:private
+horner::confirm	algorithms/horner.cpp	/^    void confirm()$/;"	f	class:horner	access:public	signature:()
+horner::hn_cal	algorithms/horner.cpp	/^    void hn_cal()$/;"	f	class:horner	access:public	signature:()
+horner::horner	algorithms/horner.cpp	/^    horner()$/;"	f	class:horner	access:public	signature:()
+horner::show	algorithms/horner.cpp	/^    void show()$/;"	f	class:horner	access:public	signature:()
+horner_tests	algorithms/algorithm_head.hpp	/^void horner_tests();$/;"	p	signature:()
+horner_tests	algorithms/horner.cpp	/^void horner_tests()$/;"	f	signature:()
+in_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+in_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+in_order	bianry_tree/binary_sort_tree.cpp	/^static void in_order(BstNodePtr root)$/;"	f	file:	signature:(BstNodePtr root)
+in_order	leetcode/IsBinarySearchTree.cpp	/^    void in_order()$/;"	f	class:CBstTree	access:public	signature:()
+in_order	leetcode/IsBinarySearchTree.cpp	/^    void in_order(const BstPtr& p)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p)
+in_order_2	leetcode/IsBinarySearchTree.cpp	/^    void in_order_2()$/;"	f	class:CBstTree	access:public	signature:()
+in_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void in_order_non_recursive()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+init_by_layer	leetcode/IsBinarySearchTree.cpp	/^    void init_by_layer(const vector<int>& A)$/;"	f	class:CBstTree	access:public	signature:(const vector<int>& A)
+init_by_order	leetcode/IsBinarySearchTree.cpp	/^    void init_by_order(const vector<int>& A)$/;"	f	class:CBstTree	access:public	signature:(const vector<int>& A)
+input_msg	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::input_msg(const std::string& input_file)$/;"	f	class:FixMsgOp	signature:(const std::string& input_file)
+input_msg	FixMsg/FixMsgOp.hpp	/^    void input_msg(const std::string& input_file);$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& input_file)
+insert_help	leetcode/InsertSort.cpp	/^void insert_help(vector<int>& A, size_t pos)$/;"	f	signature:(vector<int>& A, size_t pos)
+insert_node	bianry_tree/binary_sort_tree.cpp	/^BstNodePtr insert_node(BstNodePtr root, int key)$/;"	f	signature:(BstNodePtr root, int key)
+insert_node	leetcode/IsBinarySearchTree.cpp	/^    void insert_node(int val)$/;"	f	class:CBstTree	access:public	signature:(int val)
+insert_sort	leetcode/InsertSort.cpp	/^void insert_sort(vector<int>& A)$/;"	f	signature:(vector<int>& A)
+insert_sort_test	leetcode/InsertSort.cpp	/^void insert_sort_test()$/;"	f	signature:()
+insert_sort_test	leetcode/leetcode_head.hpp	/^void insert_sort_test();$/;"	p	signature:()
+interview_entrys	algoTests/interview_head.h	/^void interview_entrys()$/;"	f
+invert	bianry_tree/BinaryTreeTraverse.cpp	/^    BtnPtr invert(BtnPtr root)$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root)
+invert	bianry_tree/BinaryTreeTraverse.cpp	/^    void invert()$/;"	f	class:BinaryTreeTraverse	access:public	signature:()
+is_binary_search_tree_test	leetcode/IsBinarySearchTree.cpp	/^void is_binary_search_tree_test()$/;"	f	signature:()
+is_binary_search_tree_test	leetcode/leetcode_head.hpp	/^void is_binary_search_tree_test();$/;"	p	signature:()
+is_bst_1	leetcode/IsBinarySearchTree.cpp	/^    bool is_bst_1()$/;"	f	class:CBstTree	access:public	signature:()
+is_bst_1	leetcode/IsBinarySearchTree.cpp	/^bool is_bst_1(BstPtr root)$/;"	f	signature:(BstPtr root)
+is_empty	algorithms/StackQueue.cpp	/^    bool is_empty()$/;"	f	class:KStack	access:public	signature:()
+is_full	algorithms/StackQueue.cpp	/^    bool is_full()$/;"	f	class:KStack	access:public	signature:()
+is_happy	leetcode/HappyNumber.cpp	/^bool is_happy(int n)$/;"	f	signature:(int n)
+is_match	leetcode/RegularIsMatch.cpp	/^bool is_match(const char *s, const char *p)$/;"	f	signature:(const char *s, const char *p)
+is_overflow	leetcode/ReverseInteger.cpp	/^    bool is_overflow(int n)$/;"	f	class:ReverseInteger	file:	access:private	signature:(int n)
+is_palindrome	leetcode/MaxPalindromeSubstr.cpp	/^bool is_palindrome(const string& src, int L, int R)$/;"	f	signature:(const string& src, int L, int R)
+is_preorder_valid	leetcode/IsBinarySearchTree.cpp	/^    bool is_preorder_valid(const BstPtr p, int &min, int &max)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr p, int &min, int &max)
+layer_traverse	leetcode/IsBinarySearchTree.cpp	/^    void layer_traverse()$/;"	f	class:CBstTree	access:public	signature:()
+layer_unrecursive	leetcode/IsBinarySearchTree.cpp	/^    void layer_unrecursive()$/;"	f	class:CBstTree	access:public	signature:()
+leetcode_entrys	leetcode/leetcode_head.hpp	/^void leetcode_entrys()$/;"	f	signature:()
+liner_search	leetcode/LinerSearch.cpp	/^bool liner_search(const vector<int>& A, int key)$/;"	f	signature:(const vector<int>& A, int key)
+m_data	Syntax/StringImpl.hpp	/^    char *m_data;$/;"	m	class:StringImpl	access:private
+main	main.cpp	/^int main()$/;"	f	signature:()
+make_a_zombie	process/zombie_process.cpp	/^void make_a_zombie()$/;"	f	signature:()
+map_lower_bound	stltest/stl_map.cpp	/^void map_lower_bound()$/;"	f	signature:()
+max_file_num	nets/socket_op.cpp	/^void max_file_num()$/;"	f	signature:()
+max_palindrome	leetcode/MaxPalindromeSubstr.cpp	/^void max_palindrome(const string& src)$/;"	f	signature:(const string& src)
+max_sub_palindrome_str_tests	leetcode/MaxPalindromeSubstr.cpp	/^void max_sub_palindrome_str_tests()$/;"	f	signature:()
+max_sub_palindrome_str_tests	leetcode/leetcode_head.hpp	/^void max_sub_palindrome_str_tests();$/;"	p	signature:()
+max_subarray	leetcode/MaxSubarraySum.cpp	/^int max_subarray(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+max_subarray_sum_test	leetcode/MaxSubarraySum.cpp	/^void max_subarray_sum_test()$/;"	f	signature:()
+max_subarray_sum_test	leetcode/leetcode_head.hpp	/^void max_subarray_sum_test();$/;"	p	signature:()
+merge_sorted	leetcode/MergeSortedArray.cpp	/^void merge_sorted(vector<int>& A, int la, const vector<int>& B, int lb)$/;"	f	signature:(vector<int>& A, int la, const vector<int>& B, int lb)
+merge_sorted_array_test	leetcode/MergeSortedArray.cpp	/^void merge_sorted_array_test()$/;"	f	signature:()
+merge_sorted_array_test	leetcode/leetcode_head.hpp	/^void merge_sorted_array_test();$/;"	p	signature:()
+more_than_half	algoTests/interview_head.h	/^void more_than_half();$/;"	p
+more_than_half	algoTests/more_half.cpp	/^static int more_than_half(int* A, int Len)$/;"	f	file:	signature:(int* A, int Len)
+more_than_half	algoTests/more_half.cpp	/^void more_than_half()$/;"	f	signature:()
+more_than_half	leetcode/FindMoreThenHalf.cpp	/^void more_than_half(const vector<int>& A)$/;"	f	signature:(const vector<int>& A)
+more_than_half_2	leetcode/FindMoreThenHalf.cpp	/^void more_than_half_2()$/;"	f	signature:()
+multi_map_test	nets/big_little_endian.cpp	/^void multi_map_test()$/;"	f	signature:()
+multimap_tests	stltest/stl_map.cpp	/^void multimap_tests()$/;"	f	signature:()
+net_entrys	nets/net_header.h	/^void net_entrys()$/;"	f
+nth_node	leetcode/IsBinarySearchTree.cpp	/^    BstPtr nth_node(int N)$/;"	f	class:CBstTree	access:public	signature:(int N)
+nthnode_test	leetcode/IsBinarySearchTree.cpp	/^    void nthnode_test()$/;"	f	class:CBstTree	access:public	signature:()
+operator =	Syntax/StringImpl.hpp	/^    StringImpl& operator=(const StringImpl& rhs)$/;"	f	class:StringImpl	access:public	signature:(const StringImpl& rhs)
+ouput_msg	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::ouput_msg(const std::string& output_file)$/;"	f	class:FixMsgOp	signature:(const std::string& output_file)
+ouput_msg	FixMsg/FixMsgOp.hpp	/^    void ouput_msg(const std::string& output_file);$/;"	p	class:FixMsgOp	access:private	signature:(const std::string& output_file)
+output_msg	boost/file_op.cpp	/^    void output_msg()$/;"	f	class:RaiiFile	access:public	signature:()
+pointer_array	Syntax/array.cpp	/^void pointer_array()$/;"	f	signature:()
+pop	algorithms/StackQueue.cpp	/^    int pop()$/;"	f	class:KStack	access:public	signature:()
+pop_front	algorithms/StackQueue.cpp	/^    int pop_front()$/;"	f	class:Stack2Queue	access:public	signature:()
+post_order	leetcode/IsBinarySearchTree.cpp	/^    void post_order()$/;"	f	class:CBstTree	access:public	signature:()
+post_order	leetcode/IsBinarySearchTree.cpp	/^    void post_order(const BstPtr& p)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p)
+pre_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+pre_order	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+pre_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order_non_recursive()const$/;"	f	class:BinaryTreeTraverse	access:public	signature:() const
+pre_order_non_recursive	bianry_tree/BinaryTreeTraverse.cpp	/^    void pre_order_non_recursive(BtnPtr root)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr root) const
+process_entry	process/process_head.hpp	/^void process_entry()$/;"	f	signature:()
+pthread_consumer	threads/thread_cond.cpp	/^static void *pthread_consumer(void *thread_data)$/;"	f	file:	signature:(void *thread_data)
+pthread_producer	threads/thread_cond.cpp	/^static void *pthread_producer(void *thread_data)$/;"	f	file:	signature:(void *thread_data)
+pthread_tests	threads/pthreadt_test.cpp	/^void pthread_tests()$/;"	f	signature:()
+pthread_tests	threads/thread_head.h	/^void pthread_tests();$/;"	p
+push	algorithms/StackQueue.cpp	/^    void push(int val)$/;"	f	class:KStack	access:public	signature:(int val)
+push_back	algorithms/StackQueue.cpp	/^    void push_back(int val)$/;"	f	class:Stack2Queue	access:public	signature:(int val)
+push_pop_test	stltest/stl_deque.cpp	/^void push_pop_test()$/;"	f	signature:()
+quick_partition	algoTests/more_half.cpp	/^static int quick_partition(int*A, int L, int R)$/;"	f	file:	signature:(int*A, int L, int R)
+quick_sort	leetcode/QuickSort.cpp	/^void quick_sort(vector<int>& A, size_t L, size_t R)$/;"	f	signature:(vector<int>& A, size_t L, size_t R)
+quick_sort_2	leetcode/QuickSort.cpp	/^void quick_sort_2(vector<int>& A, size_t L, size_t R)$/;"	f	signature:(vector<int>& A, size_t L, size_t R)
+quick_test	leetcode/QuickSort.cpp	/^void quick_test()$/;"	f	signature:()
+quick_test	leetcode/leetcode_head.hpp	/^void quick_test();$/;"	p	signature:()
+read_data	boost/file_op.cpp	/^    void read_data()$/;"	f	class:RaiiFile	access:public	signature:()
+read_data2	boost/file_op.cpp	/^    void read_data2()$/;"	f	class:RaiiFile	access:public	signature:()
+read_fix	boost/file_op.cpp	/^    void read_fix()$/;"	f	class:RaiiFile	access:public	signature:()
+read_msg_ouput	FixMsg/FixMsgOp.cpp	/^void FixMsgOp::read_msg_ouput(const std::string& input_file, const std::string& output_file)$/;"	f	class:FixMsgOp	signature:(const std::string& input_file, const std::string& output_file)
+read_msg_ouput	FixMsg/FixMsgOp.hpp	/^    void read_msg_ouput(const std::string& input_file="fix42_input_msg.log", const std::string& output_file="fix42_output_msg.log");$/;"	p	class:FixMsgOp	access:public	signature:(const std::string& input_file=Ó, const std::string& output_file=Ó)
+regex_test	boost/file_op.cpp	/^    void regex_test()$/;"	f	class:RaiiFile	access:public	signature:()
+release_list	algoTests/reverse_list.cpp	/^static void release_list(ListNode* head)$/;"	f	file:	signature:(ListNode* head)
+release_node	leetcode/IsBinarySearchTree.cpp	/^    void release_node(BstPtr p)$/;"	f	class:CBstTree	access:public	signature:(BstPtr p)
+remove_zero_test	leetcode/RemoveZero.cpp	/^void remove_zero_test()$/;"	f	signature:()
+remove_zero_test	leetcode/leetcode_head.hpp	/^void remove_zero_test();$/;"	p	signature:()
+reverse	leetcode/ReverseInteger.cpp	/^    int reverse(int n)$/;"	f	class:ReverseInteger	access:public	signature:(int n)
+reverse_bites	leetcode/ReverseInteger.cpp	/^    int reverse_bites(int n)$/;"	f	class:ReverseBits	access:public	signature:(int n)
+reverse_integer	leetcode/ReverseInteger.cpp	/^    int reverse_integer(int n)$/;"	f	class:ReverseInteger	file:	access:private	signature:(int n)
+reverse_integer_test	leetcode/ReverseInteger.cpp	/^void reverse_integer_test()$/;"	f	signature:()
+reverse_integer_test	leetcode/leetcode_head.hpp	/^void reverse_integer_test();$/;"	p	signature:()
+reverse_list	algoTests/interview_head.h	/^void reverse_list();$/;"	p
+reverse_list	algoTests/reverse_list.cpp	/^static ListNode* reverse_list(ListNode* head)$/;"	f	file:	signature:(ListNode* head)
+reverse_list	algoTests/reverse_list.cpp	/^void reverse_list()$/;"	f	signature:()
+rlimit_set_maxfilesize	nets/socket_op.cpp	/^void rlimit_set_maxfilesize()$/;"	f	signature:()
+rlimit_set_stacksize	threads/thread_stacksize.cpp	/^void rlimit_set_stacksize()$/;"	f	signature:()
+select_min	leetcode/SelectSort.cpp	/^size_t select_min(const vector<int>& A, size_t L, size_t R)$/;"	f	signature:(const vector<int>& A, size_t L, size_t R)
+select_sort	leetcode/SelectSort.cpp	/^void select_sort(vector<int>& A)$/;"	f	signature:(vector<int>& A)
+select_sort_test	leetcode/SelectSort.cpp	/^void select_sort_test()$/;"	f	signature:()
+select_sort_test	leetcode/leetcode_head.hpp	/^void select_sort_test();$/;"	p	signature:()
+show	algorithms/horner.cpp	/^    void show()$/;"	f	class:horner	access:public	signature:()
+show	threads/pthreadt_test.cpp	/^    void show()$/;"	f	class:CThreadParam	access:public	signature:()
+show1	Syntax/vtable.cpp	/^    virtual void show1()$/;"	f	class:MI	access:public	signature:()
+show1	Syntax/vtable.cpp	/^    virtual void show1()$/;"	f	class:VBase1	access:public	signature:()
+show2	Syntax/vtable.cpp	/^    virtual void show2()$/;"	f	class:MI	access:public	signature:()
+show2	Syntax/vtable.cpp	/^    virtual void show2()$/;"	f	class:VBase2	access:public	signature:()
+show_bin	leetcode/ReverseInteger.cpp	/^    void show_bin(int n)$/;"	f	class:ReverseBits	file:	access:private	signature:(int n)
+show_list	algoTests/reverse_list.cpp	/^static void show_list(const ListNode *head)$/;"	f	file:	signature:(const ListNode *head)
+show_vec	comm/comm.hpp	/^void show_vec(const vector<T>& V, string msg="")$/;"	f	signature:(const vector<T>& V, string msg=Ó)
+sig_chld	process/zombie_process.cpp	/^void sig_chld( int signo ) {$/;"	f	signature:( int signo )
+socket_buff_size	nets/socket_op.cpp	/^void socket_buff_size()$/;"	f	signature:()
+socket_op_test	nets/net_header.h	/^void socket_op_test();$/;"	p
+socket_op_test	nets/socket_op.cpp	/^void socket_op_test()$/;"	f	signature:()
+some_tests_entry	SomeTests/some_tests_head.hpp	/^void some_tests_entry()$/;"	f	signature:()
+special_test_entry	SpecialFuncs/special_head.hpp	/^void special_test_entry()$/;"	f	signature:()
+stack_to_queue	algorithms/StackQueue.cpp	/^void stack_to_queue()$/;"	f	signature:()
+stack_to_queue	algorithms/algorithm_head.hpp	/^void stack_to_queue();$/;"	p	signature:()
+std__lg_test	stltest/stl_sort.cpp	/^void std__lg_test()$/;"	f	signature:()
+std_regex_test	FixMsg/CppRegex.cpp	/^void std_regex_test()$/;"	f	signature:()
+std_regex_test	boost/file_op.cpp	/^    void std_regex_test()$/;"	f	class:RaiiFile	access:public	signature:()
+std_regex_test	heads.h	/^void std_regex_test();$/;"	p
+std_sort_1	stltest/stl_sort.cpp	/^void std_sort_1()$/;"	f	signature:()
+stl_map_test	stltest/stl_head.hpp	/^void stl_map_test();$/;"	p	signature:()
+stl_map_test	stltest/stl_map.cpp	/^void stl_map_test()$/;"	f	signature:()
+stl_sort_test	stltest/stl_head.hpp	/^void stl_sort_test();$/;"	p	signature:()
+stl_sort_test	stltest/stl_sort.cpp	/^void stl_sort_test()$/;"	f	signature:()
+stl_string_tests	stltest/stl_head.hpp	/^void stl_string_tests();$/;"	p	signature:()
+stl_string_tests	stltest/stl_string.cpp	/^void stl_string_tests()$/;"	f	signature:()
+stl_test_entry	stltest/stl_head.hpp	/^void stl_test_entry()$/;"	f	signature:()
+stldeque_tests	stltest/stl_deque.cpp	/^void stldeque_tests()$/;"	f	signature:()
+stldeque_tests	stltest/stl_head.hpp	/^void stldeque_tests();$/;"	p	signature:()
+stlstring_test1	stltest/stl_string.cpp	/^void stlstring_test1()$/;"	f	signature:()
+swap_bit	leetcode/ReverseInteger.cpp	/^    void swap_bit(int& n, int i, int j)$/;"	f	class:ReverseBits	file:	access:private	signature:(int& n, int i, int j)
+syntax_entrys	Syntax/syntax_head.hpp	/^void syntax_entrys()$/;"	f	signature:()
+thread_cond_test	threads/thread_cond.cpp	/^void thread_cond_test()$/;"	f	signature:()
+thread_cond_test	threads/thread_head.h	/^void thread_cond_test();$/;"	p
+thread_entrys	threads/thread_head.h	/^void thread_entrys()$/;"	f
+thread_funcs	threads/thread_stacksize.cpp	/^static void* thread_funcs(void* arg)$/;"	f	file:	signature:(void* arg)
+thread_stacksize_test	threads/thread_head.h	/^void thread_stacksize_test();$/;"	p
+thread_stacksize_test	threads/thread_stacksize.cpp	/^void thread_stacksize_test()$/;"	f	signature:()
+thread_start	threads/pthreadt_test.cpp	/^static void* thread_start(void *arg)$/;"	f	file:	signature:(void *arg)
+time_date_tests	stltest/stl_head.hpp	/^void time_date_tests();$/;"	p	signature:()
+time_date_tests	stltest/time_date.cpp	/^void time_date_tests()$/;"	f	signature:()
+unit	leetcode/IsBinarySearchTree.cpp	/^    void unit()$/;"	f	class:CBstTree	access:public	signature:()
+uuid2string	SpecialFuncs/uuid.cpp	/^void uuid2string(const uuid_t& uu, char* const str)$/;"	f	signature:(const uuid_t& uu, char* const str)
+uuid_test	SpecialFuncs/special_head.hpp	/^void uuid_test();$/;"	p	signature:()
+uuid_test	SpecialFuncs/uuid.cpp	/^void uuid_test()$/;"	f	signature:()
+val	stltest/stl_deque.cpp	/^    int val;$/;"	m	struct:DequeNode	file:	access:public
+visit_by_layer	leetcode/IsBinarySearchTree.cpp	/^    bool visit_by_layer(const BstPtr& p, int layer)$/;"	f	class:CBstTree	access:public	signature:(const BstPtr& p, int layer)
+visit_node	bianry_tree/BinaryTreeTraverse.cpp	/^    void visit_node(BtnPtr p)const$/;"	f	class:BinaryTreeTraverse	access:public	signature:(BtnPtr p) const
+visit_node	bianry_tree/binary_sort_tree.cpp	/^static void visit_node(BstNodePtr node)$/;"	f	file:	signature:(BstNodePtr node)
+vtable_test1	Syntax/vtable.cpp	/^void vtable_test1()$/;"	f	signature:()
+vtable_test2	Syntax/vtable.cpp	/^void vtable_test2()$/;"	f	signature:()
+vtable_tests	Syntax/syntax_head.hpp	/^void vtable_tests();$/;"	p	signature:()
+vtable_tests	Syntax/vtable.cpp	/^void vtable_tests()$/;"	f	signature:()
+weixin_1	algoTests/interview_head.h	/^void weixin_1();$/;"	p
+weixin_1	algoTests/weixin_1.cpp	/^void weixin_1()$/;"	f	signature:()
+weixin_2	algoTests/interview_head.h	/^void weixin_2();$/;"	p
+weixin_2	algoTests/weixin_2.cpp	/^void weixin_2()$/;"	f	signature:()
+weixin_3	algoTests/interview_head.h	/^void weixin_3();$/;"	p
+weixin_3	algoTests/weixin_3.cpp	/^void weixin_3()$/;"	f	signature:()
+weixin_4	algoTests/interview_head.h	/^void weixin_4();$/;"	p
+weixin_4	algoTests/weixin_4.cpp	/^void weixin_4()$/;"	f	signature:()
+weixin_5	algoTests/interview_head.h	/^void weixin_5();$/;"	p
+weixin_5	algoTests/weixin_5.cpp	/^void weixin_5()$/;"	f	signature:()
+zero_first_test	ZeroMq/FirstTest.cpp	/^void zero_first_test()$/;"	f	signature:()
+zero_first_test	ZeroMq/ZeroMqHead.hpp	/^void zero_first_test();$/;"	p	signature:()
+zero_first_test2	ZeroMq/FirstTest.cpp	/^void zero_first_test2 (void)$/;"	f	signature:(void)
+zero_first_test2	ZeroMq/ZeroMqHead.hpp	/^void zero_first_test2();$/;"	p	signature:()
+zero_test_entrys	ZeroMq/ZeroMqHead.hpp	/^void zero_test_entrys()$/;"	f	signature:()
+zombie_process_tests	process/process_head.hpp	/^void zombie_process_tests();$/;"	p	signature:()
+zombie_process_tests	process/zombie_process.cpp	/^void zombie_process_tests()$/;"	f	signature:()
+~BinaryTreeTraverse	bianry_tree/BinaryTreeTraverse.cpp	/^    virtual ~BinaryTreeTraverse()$/;"	f	class:BinaryTreeTraverse	access:public	signature:()
+~CBstTree	leetcode/IsBinarySearchTree.cpp	/^    ~CBstTree()$/;"	f	class:CBstTree	access:public	signature:()
+~FixMsgOp	FixMsg/FixMsgOp.cpp	/^FixMsgOp::~FixMsgOp()$/;"	f	class:FixMsgOp	signature:()
+~FixMsgOp	FixMsg/FixMsgOp.hpp	/^    virtual ~FixMsgOp();$/;"	p	class:FixMsgOp	access:public	signature:()
+~RaiiFile	boost/file_op.cpp	/^    ~RaiiFile()$/;"	f	class:RaiiFile	access:public	signature:()
+~StringImpl	Syntax/StringImpl.hpp	/^    ~StringImpl()$/;"	f	class:StringImpl	access:public	signature:()
+~ThreadData	threads/thread_cond.cpp	/^    ~ThreadData()$/;"	f	class:ThreadData	access:public	signature:()

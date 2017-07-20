@@ -4,20 +4,35 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../stltest/Allocator.cpp \
+../stltest/New.cpp \
 ../stltest/stl_deque.cpp \
+../stltest/stl_hash.cpp \
 ../stltest/stl_map.cpp \
+../stltest/stl_sort.cpp \
+../stltest/stl_stack.cpp \
 ../stltest/stl_string.cpp \
 ../stltest/time_date.cpp 
 
 OBJS += \
+./stltest/Allocator.o \
+./stltest/New.o \
 ./stltest/stl_deque.o \
+./stltest/stl_hash.o \
 ./stltest/stl_map.o \
+./stltest/stl_sort.o \
+./stltest/stl_stack.o \
 ./stltest/stl_string.o \
 ./stltest/time_date.o 
 
 CPP_DEPS += \
+./stltest/Allocator.d \
+./stltest/New.d \
 ./stltest/stl_deque.d \
+./stltest/stl_hash.d \
 ./stltest/stl_map.d \
+./stltest/stl_sort.d \
+./stltest/stl_stack.d \
 ./stltest/stl_string.d \
 ./stltest/time_date.d 
 

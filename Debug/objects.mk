@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lpthread -lboost_regex -lboost_system -lzmq -luuid
+LIBS := -lpthread -lglog -lgflags -laio -lboost_regex -lboost_system -lzmq -luuid -lrt
 

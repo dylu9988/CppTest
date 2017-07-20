@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../Graph/FistTest.cpp 
+../Graph/FistTest.cpp \
+../Graph/UndirectedGraphList.cpp 
 
 OBJS += \
-./Graph/FistTest.o 
+./Graph/FistTest.o \
+./Graph/UndirectedGraphList.o 
 
 CPP_DEPS += \
-./Graph/FistTest.d 
+./Graph/FistTest.d \
+./Graph/UndirectedGraphList.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

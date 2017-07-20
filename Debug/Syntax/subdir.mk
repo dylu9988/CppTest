@@ -4,15 +4,39 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../Syntax/Align.cpp \
+../Syntax/MemberOffset.cpp \
+../Syntax/MultiInherit.cpp \
+../Syntax/NonInheritable.cpp \
+../Syntax/VtableImpl.cpp \
+../Syntax/VtablePtr.cpp \
 ../Syntax/array.cpp \
+../Syntax/datatype.cpp \
+../Syntax/varargs.cpp \
 ../Syntax/vtable.cpp 
 
 OBJS += \
+./Syntax/Align.o \
+./Syntax/MemberOffset.o \
+./Syntax/MultiInherit.o \
+./Syntax/NonInheritable.o \
+./Syntax/VtableImpl.o \
+./Syntax/VtablePtr.o \
 ./Syntax/array.o \
+./Syntax/datatype.o \
+./Syntax/varargs.o \
 ./Syntax/vtable.o 
 
 CPP_DEPS += \
+./Syntax/Align.d \
+./Syntax/MemberOffset.d \
+./Syntax/MultiInherit.d \
+./Syntax/NonInheritable.d \
+./Syntax/VtableImpl.d \
+./Syntax/VtablePtr.d \
 ./Syntax/array.d \
+./Syntax/datatype.d \
+./Syntax/varargs.d \
 ./Syntax/vtable.d 
 
 

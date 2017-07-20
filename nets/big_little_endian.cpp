@@ -7,12 +7,25 @@
 
 
 #include "comm/comm.hpp"
+#include <arpa/inet.h>
 
-#include <map>
+#include <endian.h>
 
 
-void multi_map_test()
+void nbo_hbo()
 {
+    short hboi = 0x0103;
+    short nboi = htons(hboi);
+
+    show_bin<short>(hboi);
+    show_bin<short>(nboi);
+}
+
+
+void big_little_test()
+{
+
+    nbo_hbo();
 }
 
 

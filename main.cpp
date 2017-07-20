@@ -5,8 +5,7 @@ int main()
 {
     all_test_entrys();
 
-
-    Log("=======end of main========");
+    Log("\n\n=======end of main========");
 
     return 0;
 }

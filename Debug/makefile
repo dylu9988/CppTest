@@ -19,11 +19,14 @@ RM := rm -rf
 -include algorithms/subdir.mk
 -include algoTests/subdir.mk
 -include ZeroMq/subdir.mk
+-include System/subdir.mk
 -include Syntax/subdir.mk
 -include SpecialFuncs/subdir.mk
+-include Math/subdir.mk
 -include Graph/subdir.mk
 -include FixMsg/subdir.mk
 -include Cpp11/subdir.mk
+-include Asynchronous/subdir.mk
 -include subdir.mk
 -include objects.mk
 

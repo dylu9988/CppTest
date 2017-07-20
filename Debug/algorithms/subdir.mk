@@ -4,15 +4,33 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../algorithms/LCS.cpp \
+../algorithms/LCS2.cpp \
+../algorithms/LPS.cpp \
+../algorithms/ListSort.cpp \
+../algorithms/ParenPairs.cpp \
 ../algorithms/StackQueue.cpp \
+../algorithms/Trie.cpp \
 ../algorithms/horner.cpp 
 
 OBJS += \
+./algorithms/LCS.o \
+./algorithms/LCS2.o \
+./algorithms/LPS.o \
+./algorithms/ListSort.o \
+./algorithms/ParenPairs.o \
 ./algorithms/StackQueue.o \
+./algorithms/Trie.o \
 ./algorithms/horner.o 
 
 CPP_DEPS += \
+./algorithms/LCS.d \
+./algorithms/LCS2.d \
+./algorithms/LPS.d \
+./algorithms/ListSort.d \
+./algorithms/ParenPairs.d \
 ./algorithms/StackQueue.d \
+./algorithms/Trie.d \
 ./algorithms/horner.d 
 
 

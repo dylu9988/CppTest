@@ -75,9 +75,6 @@ void vtable_test2()
 }
 
 
-
-
-
 void vtable_tests()
 {
     vtable_test1();

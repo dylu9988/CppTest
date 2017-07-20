@@ -9,5 +9,7 @@
 
 #define LogLine(...) { printf(__VA_ARGS__); }
 
+#define LogError(...) {printf("%s:", __FUNCTION__); printf(__VA_ARGS__); printf("\n"); }
+
 
 #endif

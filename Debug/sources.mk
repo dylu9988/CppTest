@@ -23,11 +23,14 @@ C_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Asynchronous \
 Cpp11 \
 FixMsg \
 Graph \
+Math \
 SpecialFuncs \
 Syntax \
+System \
 ZeroMq \
 algoTests \
 algorithms \

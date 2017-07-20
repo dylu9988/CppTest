@@ -16,6 +16,13 @@ void stl_string_tests();
 
 void time_date_tests();
 
+void stl_sort_test();
+
+void stl_hash_test();
+
+void new_tests();
+
+void allocator_tests();
 
 void stl_test_entry()
 {
@@ -26,7 +33,17 @@ void stl_test_entry()
 
 //    stl_string_tests();
 
-    time_date_tests();
+//    time_date_tests();
+
+//    stl_sort_test();
+
+//    stl_hash_test();
+
+//    new_tests();
+
+    allocator_tests();
+
+
 }
 
 
