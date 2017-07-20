@@ -35,6 +35,8 @@ void getaddrinfo_test1()
         // AF_INIT:2, SOCK_STREAM:1, IPPROTO_TCP:6
         Log("family:%d, socktype:%d, protocol:%d", p->ai_family, p->ai_socktype, p->ai_protocol)
     }
+
+    freeaddrinfo(servinfo);
 }
 
 
