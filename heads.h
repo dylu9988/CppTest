@@ -73,11 +73,11 @@ void all_test_entrys()
 
 //    graph_test_entrys();
 
-    net_entrys();
+//    net_entrys();
 
 //    algorithm_entrys();
 
-//    system_test_entries();
+    system_test_entries();
 
 //    async_test_entry();
 

@@ -94,6 +94,30 @@ void my_smart_ptr()
 }
 
 
+void shared_ptr_null()
+{
+    tr1::shared_ptr<Item> p1;
+    if(p1)
+    {
+        Log("p1 is not null");
+    }
+    else
+    {
+        Log("p1 is null");
+    }
+
+
+    tr1::shared_ptr<Item> p3(new Item());
+    if(p3)
+    {
+        Log("p3 is not null");
+    }
+    else
+    {
+        Log("p3 is null");
+    }
+}
+
 
 
 
@@ -103,7 +127,9 @@ void shared_ptr_tests()
 {
 //    shared_ptr_test1();
 
-    my_smart_ptr();
+//    my_smart_ptr();
+
+    shared_ptr_null();
 
 }
 

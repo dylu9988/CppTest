@@ -24,19 +24,24 @@ public:
     pthread_mutex_t _mutex;
     pthread_cond_t _cond;
 
-    int _seconds;
-    int _cnt;
-    int _c_cnt;
-    int _p_cnt;
+    bool _quit;
+
+    long int _c_cnt;
+    long int _c_time;
+
+    long int _p_cnt;
+    long int _p_time;
 
 public:
     ThreadData()
     {
         _signal = false;
-        _seconds = 0;
-        _cnt = 0;
         _c_cnt = 0;
+        _c_time = 0;
         _p_cnt = 0;
+        _p_time = 0;
+
+        _quit = false;
 
         _data.clear();
 
@@ -51,16 +56,14 @@ public:
     }
 
 
-    std::vector<int> get_data()
+    void get_data(std::vector<int>& ret)
     {
-        std::vector<int> ret;
-
-        return ret;
+        _data.swap(ret);
     }
 
-    void add_data()
+    void add_data(int data)
     {
-
+        _data.push_back(data);
     }
 
 };
@@ -69,9 +72,13 @@ public:
 static void *pthread_consumer(void *thread_data)
 {
     ThreadData *data = (ThreadData*)thread_data;
+    bool is_quit = false;
+    std::vector<int> ops;
 
     while(true)
     {
+        ops.clear();
+
         pthread_mutex_lock(&data->_mutex);
 
         while(!data->_signal)
@@ -79,40 +86,50 @@ static void *pthread_consumer(void *thread_data)
             pthread_cond_wait(&data->_cond, &data->_mutex);
         }
         data->_signal = false;
-//        Log("pthread_consumer=======:%d", data->_c_cnt);
-//        data->_c_cnt += data->_cnt;
-        data->_c_cnt++;
-//        data->_cnt = 0;
+
+        data->get_data(ops);
+        for(auto &i : ops)
+        {
+            data->_c_cnt += i;
+        }
+        data->_c_time++;
+        is_quit = data->_quit;
+
         pthread_mutex_unlock(&data->_mutex);
 
-//        usleep(1);
-        if(data->_seconds >= 10)
+        if(is_quit)
         {
             break;
         }
     }
+
     return NULL;
 }
 
 static void *pthread_producer(void *thread_data)
 {
     ThreadData *data = (ThreadData*)thread_data;
+    bool is_quit = false;
 
     while(true)
     {
+        long int num = random() % 10 + 1;
+
         pthread_mutex_lock(&data->_mutex);
-//        Log("pthread_producer:%d", data->_p_cnt);
-//        data->_cnt++;
-        data->_p_cnt++;
+        data->add_data(num);
+        data->_p_cnt += num;
+        data->_p_time++;
         data->_signal = true;
+        is_quit = data->_quit;
         pthread_cond_signal(&data->_cond);
         pthread_mutex_unlock(&data->_mutex);
 
-//        usleep(1);
-        if(data->_seconds >= 10)
+        if(is_quit)
         {
             break;
         }
+
+        usleep(1);
     }
 
     return NULL;
@@ -138,14 +155,23 @@ void thread_cond_test()
         return;
     }
 
+    int run_seconds = 0;
     while(true)
     {
-        td->_seconds++;
+        run_seconds++;
         sleep(1);
-        if(td->_seconds >= 13)
+        if(run_seconds >= 300)
         {
             break;
         }
+        LogLine("%d ", run_seconds);
+    }
+    Log("\nstatistics:");
+
+    {
+        pthread_mutex_lock(&td->_mutex);
+        td->_quit = true;
+        pthread_mutex_unlock(&td->_mutex);
     }
 
     ret = pthread_join(pid_c, NULL);
@@ -161,8 +187,8 @@ void thread_cond_test()
         return;
     }
 
-    Log("c_cnt:%d", td->_c_cnt);
-    Log("p_cnt:%d", td->_p_cnt);
+    Log("consumer - cnt:%ld, times:%ld", td->_c_cnt, td->_c_time);
+    Log("productor - cnt:%ld, times:%ld", td->_p_cnt, td->_p_time);
 
     Log("=== end of thread_cond ===");
 }

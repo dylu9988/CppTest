@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../Cpp11/Emplace.cpp \
+../Cpp11/FileOp.cpp \
 ../Cpp11/Final.cpp \
 ../Cpp11/Forward.cpp \
 ../Cpp11/Move.cpp \
@@ -19,6 +20,7 @@ CPP_SRCS += \
 
 OBJS += \
 ./Cpp11/Emplace.o \
+./Cpp11/FileOp.o \
 ./Cpp11/Final.o \
 ./Cpp11/Forward.o \
 ./Cpp11/Move.o \
@@ -33,6 +35,7 @@ OBJS += \
 
 CPP_DEPS += \
 ./Cpp11/Emplace.d \
+./Cpp11/FileOp.d \
 ./Cpp11/Final.d \
 ./Cpp11/Forward.d \
 ./Cpp11/Move.d \

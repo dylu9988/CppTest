@@ -47,6 +47,9 @@ void unordered_map_1()
         Log("\n");
     }
 
+    {
+    }
+
 //    Log("traverse by c++11 for");
 }
 

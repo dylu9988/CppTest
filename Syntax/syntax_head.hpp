@@ -29,7 +29,19 @@ void align_test();
 
 void member_offset_test();
 
+void label_tests();
 
+void typedid_tests();
+
+void explicit_tests();
+
+void traits_tests();
+
+void pure_virtual_destractor();
+
+void vector_add_exception();
+
+void sizeof_ponter_tests();
 
 void syntax_entrys()
 {
@@ -51,7 +63,21 @@ void syntax_entrys()
 
 //    align_test();
 
-    member_offset_test();
+//    member_offset_test();
+
+//    label_tests();
+
+//    typedid_tests();
+
+//    explicit_tests();
+
+//    traits_tests();
+
+//    pure_virtual_destractor();
+
+//    vector_add_exception();
+
+    sizeof_ponter_tests();
 
 }
 

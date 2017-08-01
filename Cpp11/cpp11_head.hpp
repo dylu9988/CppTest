@@ -34,6 +34,11 @@ void override_tests();
 
 void unordered_map_test();
 
+void final_test();
+
+void file_op_tests();
+
+
 void cpp11_entrys()
 {
 //    cpp11_loop();
@@ -54,7 +59,11 @@ void cpp11_entrys()
 
 //    override_tests();
 
-    unordered_map_test();
+//    unordered_map_test();
+
+//    final_test();
+
+    file_op_tests();
 
 
     Log("\n===== end of cpp11 tests=======");

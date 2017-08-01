@@ -16,11 +16,11 @@ void pthread_tests();
 
 void thread_entrys()
 {
-//    thread_cond_test();
+    thread_cond_test();
 
 //    thread_stacksize_test();
 
-    pthread_tests();
+//    pthread_tests();
 }
 
 

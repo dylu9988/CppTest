@@ -5,9 +5,16 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../Syntax/Align.cpp \
+../Syntax/Explicit.cpp \
+../Syntax/Label.cpp \
 ../Syntax/MemberOffset.cpp \
 ../Syntax/MultiInherit.cpp \
 ../Syntax/NonInheritable.cpp \
+../Syntax/PureVirtualDestructor.cpp \
+../Syntax/SizeofPointer.cpp \
+../Syntax/Traits.cpp \
+../Syntax/Typeid.cpp \
+../Syntax/VectorAddException.cpp \
 ../Syntax/VtableImpl.cpp \
 ../Syntax/VtablePtr.cpp \
 ../Syntax/array.cpp \
@@ -17,9 +24,16 @@ CPP_SRCS += \
 
 OBJS += \
 ./Syntax/Align.o \
+./Syntax/Explicit.o \
+./Syntax/Label.o \
 ./Syntax/MemberOffset.o \
 ./Syntax/MultiInherit.o \
 ./Syntax/NonInheritable.o \
+./Syntax/PureVirtualDestructor.o \
+./Syntax/SizeofPointer.o \
+./Syntax/Traits.o \
+./Syntax/Typeid.o \
+./Syntax/VectorAddException.o \
 ./Syntax/VtableImpl.o \
 ./Syntax/VtablePtr.o \
 ./Syntax/array.o \
@@ -29,9 +43,16 @@ OBJS += \
 
 CPP_DEPS += \
 ./Syntax/Align.d \
+./Syntax/Explicit.d \
+./Syntax/Label.d \
 ./Syntax/MemberOffset.d \
 ./Syntax/MultiInherit.d \
 ./Syntax/NonInheritable.d \
+./Syntax/PureVirtualDestructor.d \
+./Syntax/SizeofPointer.d \
+./Syntax/Traits.d \
+./Syntax/Typeid.d \
+./Syntax/VectorAddException.d \
 ./Syntax/VtableImpl.d \
 ./Syntax/VtablePtr.d \
 ./Syntax/array.d \

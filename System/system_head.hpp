@@ -21,6 +21,8 @@ void macro_counter();
 
 void resource_limit_test();
 
+void encode_iconv();
+
 void system_test_entries()
 {
 //    system_call_test();
@@ -33,7 +35,9 @@ void system_test_entries()
 
 //    macro_counter();
 
-    resource_limit_test();
+//    resource_limit_test();
+
+    encode_iconv();
 
 
 }

@@ -47,7 +47,8 @@ public:
 
 void final_test()
 {
-
+    Log("sizeof(B):%lu", sizeof(B));
+    Log("sizeof(D):%lu", sizeof(D));
 }
 
 
