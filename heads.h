@@ -36,6 +36,7 @@
 
 #include "Math/math_head.hpp"
 
+#include "CallPython/python_head.hpp"
 
 void fix_msg_test();
 
@@ -77,13 +78,15 @@ void all_test_entrys()
 
 //    algorithm_entrys();
 
-    system_test_entries();
+//    system_test_entries();
 
 //    async_test_entry();
 
 //    optimise_entries();
 
 //    math_test_entry();
+
+	python_test_entrys();
 }
 
 
