@@ -1,0 +1,13 @@
+<?xml version="1.0"?>  
+<root>
+	<users>
+		<user name="Tom" passwd="123" >
+			<info>1</info>
+			<comment>c++</comment>
+		</user>
+		<user name="John" passwd="456" >
+			<info>2</info>
+			<comment>python</comment>
+		</user>
+	</users>
+</root>

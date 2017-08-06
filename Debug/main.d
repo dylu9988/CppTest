@@ -1,5 +1,6 @@
 main.o: ../main.cpp ../heads.h \
  /home/ruanbo/Codes/CppTest/algoTests/interview_head.h \
+ /home/ruanbo/Codes/CppTest/ThirdLib/thirdlib_head.hpp \
  ../nets/net_header.h ../threads/thread_head.h \
  ../bianry_tree/binary_tree_head.h ../Syntax/syntax_head.hpp \
  ../ZeroMq/ZeroMqHead.hpp ../boost/boost_head.hpp \
@@ -14,6 +15,8 @@ main.o: ../main.cpp ../heads.h \
 ../heads.h:
 
 /home/ruanbo/Codes/CppTest/algoTests/interview_head.h:
+
+/home/ruanbo/Codes/CppTest/ThirdLib/thirdlib_head.hpp:
 
 ../nets/net_header.h:
 

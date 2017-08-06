@@ -19,6 +19,8 @@ RM := rm -rf
 -include algorithms/subdir.mk
 -include algoTests/subdir.mk
 -include ZeroMq/subdir.mk
+-include ThirdLib/TinyXml2/subdir.mk
+-include ThirdLib/subdir.mk
 -include System/subdir.mk
 -include Syntax/subdir.mk
 -include SpecialFuncs/subdir.mk

@@ -1,5 +1,6 @@
 
 #include <algoTests/interview_head.h>
+#include <ThirdLib/thirdlib_head.hpp>
 #include "nets/net_header.h"
 
 #include "threads/thread_head.h"
@@ -37,6 +38,7 @@
 #include "Math/math_head.hpp"
 
 #include "CallPython/python_head.hpp"
+
 
 void fix_msg_test();
 
@@ -86,7 +88,9 @@ void all_test_entrys()
 
 //    math_test_entry();
 
-	python_test_entrys();
+//	python_test_entrys();
+
+    third_lib_entry();
 }
 
 

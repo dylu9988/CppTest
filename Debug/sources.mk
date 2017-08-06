@@ -32,6 +32,8 @@ Math \
 SpecialFuncs \
 Syntax \
 System \
+ThirdLib/TinyXml2 \
+ThirdLib \
 ZeroMq \
 algoTests \
 algorithms \
