@@ -27,6 +27,7 @@ RM := rm -rf
 -include Math/subdir.mk
 -include Graph/subdir.mk
 -include FixMsg/subdir.mk
+-include DockerBase/subdir.mk
 -include Cpp11/subdir.mk
 -include CallPython/subdir.mk
 -include Asynchronous/subdir.mk

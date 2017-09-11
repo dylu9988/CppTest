@@ -27,7 +27,7 @@ void aio_completion_handler(int signo, siginfo_t* info, void *context)
         return;
     }
 
-    struct aiocb* req;
+//    struct aiocb* req;
 
 //    req = (struct aiocb*)info->si_
 }

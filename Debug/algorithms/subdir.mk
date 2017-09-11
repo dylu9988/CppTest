@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../algorithms/BigNumber.cpp \
 ../algorithms/LCS.cpp \
 ../algorithms/LCS2.cpp \
 ../algorithms/LPS.cpp \
@@ -14,6 +15,7 @@ CPP_SRCS += \
 ../algorithms/horner.cpp 
 
 OBJS += \
+./algorithms/BigNumber.o \
 ./algorithms/LCS.o \
 ./algorithms/LCS2.o \
 ./algorithms/LPS.o \
@@ -24,6 +26,7 @@ OBJS += \
 ./algorithms/horner.o 
 
 CPP_DEPS += \
+./algorithms/BigNumber.d \
 ./algorithms/LCS.d \
 ./algorithms/LCS2.d \
 ./algorithms/LPS.d \

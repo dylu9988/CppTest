@@ -5,6 +5,10 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../nets/Getaddrinfo.cpp \
+../nets/ServerTest.cpp \
+../nets/SimpleServer.cpp \
+../nets/SimpleTcpClient.cpp \
+../nets/SimpleTcpServer.cpp \
 ../nets/aio_file.cpp \
 ../nets/big_little_endian.cpp \
 ../nets/raw_socket.cpp \
@@ -12,6 +16,10 @@ CPP_SRCS += \
 
 OBJS += \
 ./nets/Getaddrinfo.o \
+./nets/ServerTest.o \
+./nets/SimpleServer.o \
+./nets/SimpleTcpClient.o \
+./nets/SimpleTcpServer.o \
 ./nets/aio_file.o \
 ./nets/big_little_endian.o \
 ./nets/raw_socket.o \
@@ -19,6 +27,10 @@ OBJS += \
 
 CPP_DEPS += \
 ./nets/Getaddrinfo.d \
+./nets/ServerTest.d \
+./nets/SimpleServer.d \
+./nets/SimpleTcpClient.d \
+./nets/SimpleTcpServer.d \
 ./nets/aio_file.d \
 ./nets/big_little_endian.d \
 ./nets/raw_socket.d \

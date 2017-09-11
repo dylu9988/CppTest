@@ -26,6 +26,7 @@ SUBDIRS := \
 Asynchronous \
 CallPython \
 Cpp11 \
+DockerBase \
 FixMsg \
 Graph \
 Math \

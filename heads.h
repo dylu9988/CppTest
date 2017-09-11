@@ -39,6 +39,7 @@
 
 #include "CallPython/python_head.hpp"
 
+#include "DockerBase/docker_head.hpp"
 
 void fix_msg_test();
 
@@ -76,7 +77,7 @@ void all_test_entrys()
 
 //    graph_test_entrys();
 
-//    net_entrys();
+    net_entrys();
 
 //    algorithm_entrys();
 
@@ -90,7 +91,9 @@ void all_test_entrys()
 
 //	python_test_entrys();
 
-    third_lib_entry();
+//    third_lib_entry();
+
+//    docker_base_test();
 }
 
 

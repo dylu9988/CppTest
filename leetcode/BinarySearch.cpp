@@ -8,7 +8,7 @@
 #include "comm/comm.hpp"
 
 
-bool binary_search(const vector<int>& A, int L, int R, int key)
+bool binary_search(const vector<int>& A, size_t L, size_t R, int key)
 {
     if(L > R || A.size() <= R)
     {

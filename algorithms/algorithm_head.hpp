@@ -25,6 +25,8 @@ void lps_test();
 
 void paren_paris_test();
 
+void big_number_test();
+
 void algorithm_entrys()
 {
 //    horner_tests();
@@ -41,7 +43,9 @@ void algorithm_entrys()
 
 //    lps_test();
 
-    paren_paris_test();
+//    paren_paris_test();
+
+    big_number_test();
 
 
 }

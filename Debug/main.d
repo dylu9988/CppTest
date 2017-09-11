@@ -10,7 +10,8 @@ main.o: ../main.cpp ../heads.h \
  ../SpecialFuncs/special_head.hpp ../Graph/graph_head.hpp \
  ../algorithms/algorithm_head.hpp ../System/system_head.hpp \
  ../Asynchronous/async_head.hpp ../Optimise/optimise_head.hpp \
- ../Math/math_head.hpp ../CallPython/python_head.hpp
+ ../Math/math_head.hpp ../CallPython/python_head.hpp \
+ ../DockerBase/docker_head.hpp
 
 ../heads.h:
 
@@ -57,3 +58,5 @@ main.o: ../main.cpp ../heads.h \
 ../Math/math_head.hpp:
 
 ../CallPython/python_head.hpp:
+
+../DockerBase/docker_head.hpp:
